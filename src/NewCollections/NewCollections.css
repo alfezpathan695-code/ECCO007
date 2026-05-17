@@ -1,0 +1,33 @@
+.newcollections{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+    
+    background: linear-gradient(180deg,#e1ffea22, #48ffcb 60%);
+}
+
+.newcollections h1{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(180deg,#e1ffea22, #04ffb8 60%);
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.newcollections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+ .collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+ }

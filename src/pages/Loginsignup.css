@@ -1,0 +1,102 @@
+.loginsignup {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #48ffcb, #e1ffea22 60%);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.loginsignup-container {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+
+  /* clean shadow instead of border */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loginsignup-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loginsignup-fields input {
+  height: 45px;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+/* focus effect */
+.loginsignup-fields input:focus {
+  border-color: #48ffcb;
+  box-shadow: 0 0 0 2px #48ffcb33;
+}
+
+/* button fix */
+.loginsignup-container button {
+  width: 100%;
+  height: 45px;
+  background: #ff4141;
+  color: white;
+  border: none;
+  border-radius: 8px;
+
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.loginsignup-container button:hover {
+  background: #e63636;
+}
+
+/* login text */
+.loginsignup-login {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.loginsignup-login span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* checkbox */
+.loginsignup-agree {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* error */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+}
