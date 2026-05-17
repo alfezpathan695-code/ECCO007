@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { useParams } from 'react-router-dom';
-import BreadCrums from '../components/BreadCrums/BreadCrums';
+import BreadCrums from '../components/Bredcrums/BreadCrums';
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay';
 import Description from '../components/Description/Description';
 import RelatedProducts from '../components/RelatedProducts/RelatedProducts';
