@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { useParams } from 'react-router-dom';
-import BredCrums from '../components/BredCrums';
+import BreadCrums from '../components/BreadCrums/BreadCrums';
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay';
 import Description from '../components/Description/Description';
 import RelatedProducts from '../components/RelatedProducts/RelatedProducts';
@@ -13,7 +13,7 @@ const product = all_product.find((e) => e.id === parseInt(productId));
   return (
     <div>
       <>
-        <BredCrums product={product ? product : {}} />
+        <BreadCrums product={product ? product : {}} />
         <ProductDisplay product={product ? product : {}} />
         <Description/>
         <RelatedProducts/>
